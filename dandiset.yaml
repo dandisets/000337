@@ -3,7 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001950
+  name: neocortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -36,7 +39,10 @@ assetsSummary:
 citation: Chartrand, Thomas; Kalmbach, Brian; Mansvelder, Huib; Lein, Ed (2026) 20220917_AIBS_Patchseq_human
   (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000337/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brain Science
+    schemaKey: Affiliation
   email: tom.chartrand@alleninstitute.org
   identifier: 0000-0002-7093-8681
   includeInCitation: true
@@ -44,7 +50,12 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- email: briank@alleninstitute.org
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
   includeInCitation: true
   name: Kalmbach, Brian
   roleName:
@@ -53,23 +64,53 @@ contributor:
 - includeInCitation: true
   name: Mansvelder, Huib
   schemaKey: Person
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  identifier: 0000-0001-9012-6552
+  includeInCitation: true
   name: Lein, Ed
   schemaKey: Person
+- awardNumber: U01MH114812
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U01MH114812
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: false
+  name: Allen Institute for Brain Science
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2022-09-18T05:53:58.949542+00:00'
-description: U01 Lein PatchSeq upload March 2022 - Mansvelder lab data
+description: Patch-seq (whole-cell patch-clamp recordings with subsequent RNA extraction
+  and sequencing) data from human neocortical neurons, collected in the Mansvelder
+  lab as part of the U01 Lein PatchSeq project. The dataset contains current-clamp
+  and voltage-clamp electrophysiological recordings from 12 human subjects.
 ethicsApproval: []
 id: DANDI:000337/draft
 identifier: DANDI:000337
+keywords:
+- Patch-seq
+- human
+- neocortical
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000337/versions/draft/assets/
 name: 20220917_AIBS_Patchseq_human
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget:
+- human neocortical neurons
 url: https://dandiarchive.org/dandiset/000337/draft
 version: draft
 wasGeneratedBy: []
