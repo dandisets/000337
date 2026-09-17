@@ -37,7 +37,7 @@ assetsSummary:
   - VoltageClampStimulusSeries
   - VoltageClampSeries
 citation: Chartrand, Thomas; Kalmbach, Brian; Mansvelder, Huib; Lein, Ed (2026) 20220917_AIBS_Patchseq_human
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000337/draft
+  (Version 0.260917.2218) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000337/0.260917.2218
 contributor:
 - affiliation:
   - identifier: https://ror.org/00dcv1019
@@ -87,12 +87,14 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-09-18T05:53:58.949542+00:00'
+datePublished: '2026-09-17T22:18:14.110795+00:00'
 description: Patch-seq (whole-cell patch-clamp recordings with subsequent RNA extraction
   and sequencing) data from human neocortical neurons, collected in the Mansvelder
   lab as part of the U01 Lein PatchSeq project. The dataset contains current-clamp
   and voltage-clamp electrophysiological recordings from 12 human subjects.
+doi: 10.48324/dandi.000337/0.260917.2218
 ethicsApproval: []
-id: DANDI:000337/draft
+id: DANDI:000337/0.260917.2218
 identifier: DANDI:000337
 keywords:
 - Patch-seq
@@ -101,16 +103,28 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000337/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000337/0.260917.2218/assets.yaml
 name: 20220917_AIBS_Patchseq_human
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+publishedBy:
+  endDate: '2026-09-17T22:18:14.110795+00:00'
+  id: urn:uuid:210bc029-5eb4-4fa9-94e2-a2324bacf618
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-17T22:18:14.110795+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:7ea9d5e8-86b3-4d88-a810-e91991bdc6b7
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget:
 - human neocortical neurons
-url: https://dandiarchive.org/dandiset/000337/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000337/0.260917.2218
+version: 0.260917.2218
 wasGeneratedBy: []
