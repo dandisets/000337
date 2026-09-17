@@ -33,14 +33,20 @@ assetsSummary:
   - CurrentClampSeries
   - VoltageClampStimulusSeries
   - VoltageClampSeries
-citation: Chartrand, Thomas (2026) 20220917_AIBS_Patchseq_human (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/000337/draft
+citation: Chartrand, Thomas; Kalmbach, Brian (2026) 20220917_AIBS_Patchseq_human (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000337/draft
 contributor:
 - affiliation: []
   email: tom.chartrand@alleninstitute.org
   identifier: 0000-0002-7093-8681
   includeInCitation: true
   name: Chartrand, Thomas
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- email: briank@alleninstitute.org
+  includeInCitation: true
+  name: Kalmbach, Brian
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
