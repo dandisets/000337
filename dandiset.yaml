@@ -33,8 +33,8 @@ assetsSummary:
   - CurrentClampSeries
   - VoltageClampStimulusSeries
   - VoltageClampSeries
-citation: Chartrand, Thomas; Kalmbach, Brian (2026) 20220917_AIBS_Patchseq_human (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000337/draft
+citation: Chartrand, Thomas; Kalmbach, Brian; Mansvelder, Huib; Lein, Ed (2026) 20220917_AIBS_Patchseq_human
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000337/draft
 contributor:
 - affiliation: []
   email: tom.chartrand@alleninstitute.org
@@ -49,6 +49,12 @@ contributor:
   name: Kalmbach, Brian
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- includeInCitation: true
+  name: Mansvelder, Huib
+  schemaKey: Person
+- includeInCitation: true
+  name: Lein, Ed
   schemaKey: Person
 dateCreated: '2022-09-18T05:53:58.949542+00:00'
 description: U01 Lein PatchSeq upload March 2022 - Mansvelder lab data
